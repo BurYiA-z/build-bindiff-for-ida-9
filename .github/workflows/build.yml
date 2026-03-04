@@ -8,10 +8,10 @@ on:
 
 env:
   BUILD_TYPE: Release
-  IDA_VERSION_FOR_ARTIFACT_NAME: "9.2.250814"
-  URL_TO_IDASDK_ZIP: https://github.com/BurYiA-z/build-bindiff-for-ida-9/releases/download/sdk/idasdk92.zip
-  SHA256_IDASDK_ZIP: fafa43237088ea32aaa7210816732e8cc12a0654a9a6190c50e85579962127d1
-  PATH_TO_IDASDK_CONTENT: src
+  IDA_VERSION_FOR_ARTIFACT_NAME: "9.3.260213"
+  URL_TO_IDASDK_ZIP: https://github.com/HexRaysSA/ida-sdk/archive/refs/tags/v9.3.zip
+  SHA256_IDASDK_ZIP: fc136a581f30ba08e70b490b6ece6dca13fa5d25a43c56c9ff3242bea2ae1522
+  PATH_TO_IDASDK_CONTENT: ida-sdk-9.3/src
 
 jobs:
   build:
